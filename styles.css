@@ -181,6 +181,7 @@ body {
     margin: 15px 0;
 }
 #feature .fe-box:hover {
+    transform: translateY(-10px);
     box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
 }
 #feature .fe-box img {
@@ -192,22 +193,28 @@ body {
     padding: 9px 8px 6px 8px;
     line-height: 1;
     color: #088178;
-    background-color: #fddde4;  
+    background-color: #fddde4;
+    transition-delay: 0.2s; 
 }
 #feature .fe-box:nth-child(2) h6{
     background-color: #cdebbc;
+    transition-delay: 0.2s;
 }
 #feature .fe-box:nth-child(3) h6{
     background-color: #d1e8f2;
+    transition-delay: 0.4s;
 }
 #feature .fe-box:nth-child(4) h6{
     background-color: #cdd4f8;
+    transition-delay: 0.4s;
 }
 #feature .fe-box:nth-child(5) h6{
     background-color: #f6dbf6;
+    transition-delay: 0.6s;
 }
 #feature .fe-box:nth-child(6) h6{
     background-color: #fff2e5;
+    transition-delay: 0.6s;
 }
 
 /*---------Product Design-------*/
