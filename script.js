@@ -145,7 +145,7 @@ onchange="updateQuantity('${item.id}',this.value)">
 
 let totals = calculateTotal()
 
-document.getElementById("subtotal").innerText="$"+totals.subtotal
+document.getElementById("subtotal-price").innerText="$"+totals.subtotal
 document.getElementById("discount").innerText="$"+totals.discount
 document.getElementById("total").innerText="$"+totals.total
 
